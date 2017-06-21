@@ -1,0 +1,9 @@
+﻿  main.cpp
+e:\uad\generatebmp\generatebmp\main.cpp(21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\uad\generatebmp\generatebmp\main.cpp(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\uad\generatebmp\generatebmp\main.cpp(23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\uad\generatebmp\generatebmp\main.cpp(34): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\uad\generatebmp\generatebmp\main.cpp(95): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\uad\generatebmp\generatebmp\main.cpp(96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  generateBmp.vcxproj -> E:\UAD\generateBmp\Debug\generateBmp.exe
+  generateBmp.vcxproj -> E:\UAD\generateBmp\Debug\generateBmp.pdb (Full PDB)
