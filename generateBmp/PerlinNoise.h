@@ -5,23 +5,21 @@
 class PerlinNoise
 {
 public:
-	float m_seed;
-	float m_octaves;
-	float m_fx;
-	float m_fy;
-
-	void SetSeed(float seed);
-	void Setfxfy(float fx, float fy);
+	void GeneratePerlinNoise();
 	void SetOctaves(float octaves);
-
-	int noise(int x, int y);
-	int octaveNoise(int x, int y);
-
-	int noise(int x, int y, int z);
-	std::function<int()> Random;
+	void SetSize(float width, float heigth);
+	float  GetValuePerlinNoise(int);
 	PerlinNoise();
 	~PerlinNoise();
 
 private:
+	float m_octaves;
+	int m_width;
+	int m_height;
 
+	float *m_baseNoise;
+	float *m_perlinNoise;
+
+	float* GenerateWhiteNoise();
+	float* GenerateSmoothNoise(int octave);
 };
