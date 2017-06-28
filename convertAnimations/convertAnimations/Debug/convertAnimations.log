@@ -1,0 +1,4 @@
+﻿  main.cpp
+e:\uad\convertanimations\convertanimations\main.cpp(352): warning C4018: '<': signed/unsigned mismatch
+  convertAnimations.vcxproj -> E:\UAD\convertAnimations\Debug\convertAnimations.exe
+  convertAnimations.vcxproj -> E:\UAD\convertAnimations\Debug\convertAnimations.pdb (Full PDB)
